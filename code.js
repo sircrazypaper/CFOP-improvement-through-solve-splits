@@ -25,6 +25,11 @@ function alerts(){
   ollGoal = solveSpeed*ollpct;
   pllGoal = solveSpeed*pllpct;
 
-  document.getElementById('improve-f2l-by').innerHTML = f2lGoal-f2lSpeed;
+  improveF2l = f2lGoal-f2lSpeed;
+  if(improveF2l>0){
+    improveF2l = 0
+  }
+
+  document.getElementById('improve-f2l-by').innerHTML = improveF2l;
 
 }
