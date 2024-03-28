@@ -16,7 +16,8 @@ let improveF2l = 0;
 let improveOll = 0;
 let improvePll = 0;
 
-function alerts(){
+function improvementGuide(){
+
   f2lSpeed = document.getElementById('f2l-input').value;
   ollSpeed = document.getElementById('oll-input').value;
   pllSpeed = document.getElementById('pll-input').value;
@@ -31,5 +32,4 @@ function alerts(){
   }
 
   document.getElementById('improve-f2l-by').innerHTML = improveF2l;
-
 }
