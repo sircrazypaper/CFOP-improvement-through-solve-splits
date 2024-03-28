@@ -51,11 +51,8 @@ function improvementGuide(){
     stepToImprove = "PLL";
   }
 
-
-
-  alert(stepToImprove);
-
   document.getElementById('improve-f2l-by').innerHTML = improveF2l;
   document.getElementById('improve-oll-by').innerHTML = improveOll;
   document.getElementById('improve-pll-by').innerHTML = improvePll;
+  document.getElementById('step-to-improve').innerHTML = stepToImprove;
 }
