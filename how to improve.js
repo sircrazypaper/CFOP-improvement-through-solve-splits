@@ -16,6 +16,8 @@ let improveF2l = 0;
 let improveOll = 0;
 let improvePll = 0;
 
+let stepToImprove = " ";
+
 function improvementGuide(){
 
   f2lSpeed = document.getElementById('f2l-input').value;
@@ -30,16 +32,28 @@ function improvementGuide(){
   if(improveF2l>0){
     improveF2l = 0
   }
-
   improveOll = ollGoal-ollSpeed;
   if(improveOll>0){
     improveOll = 0
   }
-
   improvePll = pllGoal-pllSpeed;
   if(improvePll>0){
     improvePll = 0
   }
+
+  if(improveF2l<improveOll && improveF2l<improvePll){
+    stepToImprove = "F2L";
+  }
+  if(improveOll<improveF2l && improveOll<improvePll){
+    stepToImprove = "OLL";
+  }
+  if(improvePll<improveF2l && improvePll<improveOll){
+    stepToImprove = "PLL";
+  }
+
+
+
+  alert(stepToImprove);
 
   document.getElementById('improve-f2l-by').innerHTML = improveF2l;
   document.getElementById('improve-oll-by').innerHTML = improveOll;
