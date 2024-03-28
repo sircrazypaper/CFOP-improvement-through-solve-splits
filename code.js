@@ -12,6 +12,9 @@ let f2lGoal = 0;
 let ollGoal = 0;
 let pllGoal = 0;
 
+let improveF2l = 0;
+let improveOll = 0;
+let improvePll = 0;
 
 function alerts(){
   f2lSpeed = document.getElementById('f2l-input').value;
