@@ -51,8 +51,8 @@ function improvementGuide(){
     stepToImprove = "PLL";
   }
 
-  document.getElementById('improve-f2l-by').innerHTML = improveF2l;
-  document.getElementById('improve-oll-by').innerHTML = improveOll;
-  document.getElementById('improve-pll-by').innerHTML = improvePll;
+  document.getElementById('improve-f2l-by').innerHTML = f2lGoal;
+  document.getElementById('improve-oll-by').innerHTML = ollGoal;
+  document.getElementById('improve-pll-by').innerHTML = pllGoal;
   document.getElementById('step-to-improve').innerHTML = stepToImprove;
 }
