@@ -31,5 +31,17 @@ function improvementGuide(){
     improveF2l = 0
   }
 
+  improveOll = ollGoal-ollSpeed;
+  if(improveOll>0){
+    improveOll = 0
+  }
+
+  improvePll = pllGoal-pllSpeed;
+  if(improvePll>0){
+    improvePll = 0
+  }
+
   document.getElementById('improve-f2l-by').innerHTML = improveF2l;
+  document.getElementById('improve-oll-by').innerHTML = improveOll;
+  document.getElementById('improve-pll-by').innerHTML = improvePll;
 }
