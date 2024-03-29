@@ -4,9 +4,9 @@ let ollSpeed = 0;
 let pllSpeed = 0;
 let solveSpeed = 0;
 
-let f2lpct = 0.5735;
-let ollpct = 0.1721;
-let pllpct = 0.2544;
+let f2lpct = 0.573;
+let ollpct = 0.1718;
+let pllpct = 0.2552;
 
 let f2lGoal = 0;
 let ollGoal = 0;
