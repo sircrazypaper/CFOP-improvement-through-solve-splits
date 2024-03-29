@@ -81,6 +81,12 @@ function improvementGuide(){
     improvementText = `<p> Your worst step is OLL. To improve at OLL at your speed, make sure you know 2 look OLL, if you already know it just do a lot of solves.</p>`;
   } else if (solveSpeed>29.99 && solveSpeed<39.99 && stepToImprove=="PLL"){
     improvementText = `<p> Your worst step is PLL. At your speed you need to know full PLL here is an <a href="https://www.speedcubedb.com/a/3x3/PLL">algorithm sheet</a>. If you already know full PLL you just need to do a ton of solves to get faster at it.</p>`;
+  } else if (solveSpeed>19.99 && solveSpeed<29.99 && stepToImprove=="F2L"){
+    improvementText = `<p> Your worst step is F2L. Now is the time for you to have a more efficient F2L, I don't mean learning advanced stuff like pseudoslotting, multislotting and FRUF stuff. I just mean solving your pairs intuitively, but in a smarter way, here is a quick <a href="https://www.youtube.com/watch?v=JebXf1uYYwU">video tutorial</a>. After you have watched this video I advise you to do some untimed solves where you focus on using the new ideas you have just learnt.</p>`;
+  } else if (solveSpeed>19.99 && solveSpeed<29.99 && stepToImprove=="OLL"){
+    improvementText = `<p> Your worst step is OLL. You need to make sure you have good fingertricks for the cases you know. Once you are sure your fingertricks are good, you can use an algorithm trainer to practice the algorithms. <a href="https://bestsiteever.ru/oll/">This one</a> is my favorite. </p>`;
+  } else if (solveSpeed>19.99 && solveSpeed<29.99 && stepToImprove=="PLL"){
+    improvementText = `<p> Your worst step is PLL. You need to make sure you know full PLL and have good fingertricks for all of the cases. Once you are sure your fingertricks are good, you can use an algorithm trainer to practice the algorithms. <a href="https://bestsiteever.ru/pll/">This one</a> is my favorite. </p>`;
   }
 
   //Display information
