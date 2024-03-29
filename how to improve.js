@@ -48,11 +48,11 @@ function improvementGuide(){
   } else if(improvePll<improveF2l && improvePll<improveOll){
     stepToImprove = "PLL";
   } else{
-    stepToImprove = "F2L";  
+    stepToImprove = "F2L";
   }
 
-  document.getElementById('improve-f2l-by').innerHTML = f2lGoal;
-  document.getElementById('improve-oll-by').innerHTML = ollGoal;
-  document.getElementById('improve-pll-by').innerHTML = pllGoal;
+  document.getElementById('improve-f2l-by').innerHTML = f2lGoal.toFixed(2);
+  document.getElementById('improve-oll-by').innerHTML = ollGoal.toFixed(2);
+  document.getElementById('improve-pll-by').innerHTML = pllGoal.toFixed(2);
   document.getElementById('step-to-improve').innerHTML = stepToImprove;
 }
