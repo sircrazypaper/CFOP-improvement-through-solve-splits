@@ -24,6 +24,11 @@ input {
 }
 
 .improvements{
-  font-size: 1.6vw;
+  font-size: 1.75vw;
   margin: 2.5%;
+}
+
+#split-header{
+  font-size: 2.3vw;
+  margin: 0.2%;
 }
