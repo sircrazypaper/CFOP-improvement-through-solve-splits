@@ -43,12 +43,12 @@ function improvementGuide(){
 
   if(improveF2l<improveOll && improveF2l<improvePll){
     stepToImprove = "F2L";
-  }
-  if(improveOll<improveF2l && improveOll<improvePll){
+  } else if(improveOll<improveF2l && improveOll<improvePll){
     stepToImprove = "OLL";
-  }
-  if(improvePll<improveF2l && improvePll<improveOll){
+  } else if(improvePll<improveF2l && improvePll<improveOll){
     stepToImprove = "PLL";
+  } else{
+    stepToImprove = "F2L";  
   }
 
   document.getElementById('improve-f2l-by').innerHTML = f2lGoal;
