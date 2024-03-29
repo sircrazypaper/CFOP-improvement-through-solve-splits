@@ -58,11 +58,17 @@ function improvementGuide(){
 
   //Genererate all needed texts for improvement
   if (solveSpeed>59.99 && stepToImprove=="F2L"){
-    improvementText = `<p> Your worst step is F2L. At your speed, you just have to do a ton of solves to improve your F2L speed. Don't forget to have fun with it!</p>`
+    improvementText = `<p> Your worst step is F2L. At your speed, you just have to do a ton of solves to improve your F2L speed. Don't forget to have fun with it!</p>`;
   } else if (solveSpeed>59.99 && stepToImprove=="OLL") {
-    improvementText = `<p> Your worst step is OLL. At your speed, you just have to do a ton of solves to improve your OLL speed. Don't forget to have fun with it!</p>`
+    improvementText = `<p> Your worst step is OLL. At your speed, you just have to do a ton of solves to improve your OLL speed. Don't forget to have fun with it!</p>`;
   } else if (solveSpeed>59.99 && stepToImprove=="PLL"){
-    improvementText = `<p> Your worst step is PLL. At your speed, you just have to do a ton of solves to improve your PLL speed. Don't forget to have fun with it!</p>`
+    improvementText = `<p> Your worst step is PLL. At your speed, you just have to do a ton of solves to improve your PLL speed. Don't forget to have fun with it!</p>`;
+  } else if (solveSpeed>49.99 && solveSpeed<59.99 && stepToImprove=="F2L"){
+    improvementText = `<p> Your worst step is F2L. At your speed, you should make sure you know how to do intuitive F2L, you can use <a href="https://www.youtube.com/watch?v=Ar_Zit1VLG0">this tutorial</a> to learn it. If you already know how to do intuitive F2L then just do a ton of solves to practice it.</p>`;
+  } else if (solveSpeed>49.99 && solveSpeed<59.99 && stepToImprove=="OLL"){
+    improvementText = `<p> Your worst step is OLL. At your speed you just need to do a ton of solves to make your OLL faster. Remember to have fun though.</p>`;
+  } else if (solveSpeed>49.99 && solveSpeed<59.99 && stepToImprove=="PLL"){
+    improvementText = `<p> Your worst step is PLL. At your speed it is necessary to know 2 look PLL, you can use <a href="https://www.youtube.com/watch?v=ZC9nwou59ow">this tutorial</a> to learn it. If you already know 2 look PLL, just do a ton of solves to improve it.</p>`;
   }
 
   //Display information
