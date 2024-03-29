@@ -99,6 +99,12 @@ function improvementGuide(){
     improvementText = `<p> Your worst step is OLL. Make sure you know full OLL, and after that you just have to use an algorithm trainer to practice it.<p>`;
   } else if (solveSpeed>11.99 && solveSpeed<14.99 && stepToImprove=="PLL"){
     improvementText = `<p> Your worst step is PLL. You now need to learn how to do 2-sided PLL recognition. Here is an <a href="https://www.youtube.com/watch?v=R-GIYWviITc&t=203s">easy tutorial</a>, after that you just need to use an algorithm trainer to practice your PLL's, and remember to use your new recognition system.</p>`;
+  } else if (solveSpeed>8.99 && solveSpeed<11.99 && stepToImprove=="F2L"){
+    improvementText = `<p> Your worst step is F2L. I would advise you to record a few solves and see how good your lookahead is, if it is bad do slow solves to practice it. If your lookahead is on point you should start learning how to plan your cross and first pair in inspection, here is a <a href="https://www.youtube.com/watch?v=v-lNvg0fgQA">quick tutorial</a>. To practice cross+1 you can use this <a href="https://christianvaughn.net/C2F2L/#">trainer</a>.</p>`;
+  } else if (solveSpeed>8.99 && solveSpeed<11.99 && stepToImprove=="OLL"){
+    improvementText = `<p> Your worst step is OLL. Make sure you know full OLL and use an algorithm trainer to practice the algorithms.</p>`;
+  } else if (solveSpeed>8.99 && solveSpeed<11.99 && stepToImprove=="PLL"){
+    improvementText = `<p> Your worst step is PLL. Make sure you know full PLL and use an algorithm trainer to practice the algorithms.</p>`;
   }
 
   //Display information
