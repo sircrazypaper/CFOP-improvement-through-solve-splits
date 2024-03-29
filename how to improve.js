@@ -68,7 +68,13 @@ function improvementGuide(){
   } else if (solveSpeed>49.99 && solveSpeed<59.99 && stepToImprove=="OLL"){
     improvementText = `<p> Your worst step is OLL. At your speed you just need to do a ton of solves to make your OLL faster. Remember to have fun though.</p>`;
   } else if (solveSpeed>49.99 && solveSpeed<59.99 && stepToImprove=="PLL"){
-    improvementText = `<p> Your worst step is PLL. At your speed it is necessary to know 2 look PLL, you can use <a href="https://www.youtube.com/watch?v=ZC9nwou59ow">this tutorial</a> to learn it. If you already know 2 look PLL, just do a ton of solves to improve it.</p>`;
+    improvementText = `<p> Your worst step is PLL. At your speed it is necessary to know 2 look PLL, you can use <a href="https://www.youtube.com/watch?v=ZC9nwou59ow">this tutorial</a> to learn it. If you already know 2 look PLL, just do a ton of solves to improve at it.</p>`;
+  } else if (solveSpeed>39.99 && solveSpeed<49.99 && stepToImprove=="F2L"){
+    improvementText = `<p> Your worst step is F2L. To improve it, make sure you know intuitive F2L. If you already know how to do intuitive F2L then simply just do a ton of solves to improve at it.</p>`;
+  } else if (solveSpeed>39.99 && solveSpeed<49.99 && stepToImprove=="OLL"){
+    improvementText = `<p> Your worst step is OLL. At your speed it is necessary to know 2 look OLL, you can use <a href="https://www.youtube.com/watch?v=6PSBaxlBqRg">this tutorial</a> to learn it. If you already know 2 look OLL, just do a ton of solves to improve at it.</p>`;
+  } else if (solveSpeed>39.99 && solveSpeed<49.99 && stepToImprove=="PLL"){
+    improvementText = `<p> Your worst step is PLL. Make sure you know 2 look PLL, and then just do a ton of solves to improve your PLL speed.</p>`;
   }
 
   //Display information
