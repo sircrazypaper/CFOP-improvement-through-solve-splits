@@ -87,6 +87,12 @@ function improvementGuide(){
     improvementText = `<p> Your worst step is OLL. You need to make sure you have good fingertricks for the cases you know. Once you are sure your fingertricks are good, you can use an algorithm trainer to practice the algorithms. <a href="https://bestsiteever.ru/oll/">This one</a> is my favorite. </p>`;
   } else if (solveSpeed>19.99 && solveSpeed<29.99 && stepToImprove=="PLL"){
     improvementText = `<p> Your worst step is PLL. You need to make sure you know full PLL and have good fingertricks for all of the cases. Once you are sure your fingertricks are good, you can use an algorithm trainer to practice the algorithms. <a href="https://bestsiteever.ru/pll/">This one</a> is my favorite. </p>`;
+  } else if (solveSpeed>14.99 && solveSpeed<19.99 && stepToImprove=="F2L"){
+    improvementText = `<p> Your worst step is F2L. Make sure you solve all of the cases fairly efficiently. After that just do some slow solves to get used to your solutions for every case.</p>`;
+  } else if (solveSpeed>14.99 && solveSpeed<19.99 && stepToImprove=="OLL"){
+    improvementText = `<p> Your worst step is OLL. The time has come for you to learn full OLL. 57 algorithms is a lot, but don't let it discourage you. Here is an <a href="https://speedcubedb.com/a/3x3/OLL">algorithm sheet</a>. The best way to learn the algorithms is to learn them in sets based on their shapes. Example: learning the P shapes. When you are done learning them you should use an algorithm trainer to practice them.</p>`;
+  } else if (solveSpeed>14.99 && solveSpeed<19.99 && stepToImprove=="PLL"){
+    improvementText = `<p> Your worst step is PLL. Improving your PLL is fairly simple, all you have to do is use an algorithm trainer to practice all the cases.</p>`;
   }
 
   //Display information
