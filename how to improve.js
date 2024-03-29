@@ -93,6 +93,12 @@ function improvementGuide(){
     improvementText = `<p> Your worst step is OLL. The time has come for you to learn full OLL. 57 algorithms is a lot, but don't let it discourage you. Here is an <a href="https://speedcubedb.com/a/3x3/OLL">algorithm sheet</a>. The best way to learn the algorithms is to learn them in sets based on their shapes. Example: learning the P shapes. When you are done learning them you should use an algorithm trainer to practice them.</p>`;
   } else if (solveSpeed>14.99 && solveSpeed<19.99 && stepToImprove=="PLL"){
     improvementText = `<p> Your worst step is PLL. Improving your PLL is fairly simple, all you have to do is use an algorithm trainer to practice all the cases.</p>`;
+  } else if (solveSpeed>11.99 && solveSpeed<14.99 && stepToImprove=="F2L"){
+    improvementText = `<p> Your worst step is F2L. Now that you are used to all of your solutions you are going to learn how to do lookahead. Lookahead is basically just not looking at the pieces you are currently solving, hence the name look-ahead. Here is a <a href="https://www.youtube.com/watch?v=Sw3DpueJsWM">tutorial</a>, it may be hard to learn but i am sure you can do it!<p>`;
+  } else if (solveSpeed>11.99 && solveSpeed<14.99 && stepToImprove=="OLL"){
+    improvementText = `<p> Your worst step is OLL. Make sure you know full OLL, and after that you just have to use an algorithm trainer to practice it.<p>`;
+  } else if (solveSpeed>11.99 && solveSpeed<14.99 && stepToImprove=="PLL"){
+    improvementText = `<p> Your worst step is PLL. You now need to learn how to do 2-sided PLL recognition. Here is an <a href="https://www.youtube.com/watch?v=R-GIYWviITc&t=203s">easy tutorial</a>, after that you just need to use an algorithm trainer to practice your PLL's, and remember to use your new recognition system.</p>`;
   }
 
   //Display information
