@@ -105,6 +105,16 @@ function improvementGuide(){
     improvementText = `<p> Your worst step is OLL. Make sure you know full OLL and use an algorithm trainer to practice the algorithms.</p>`;
   } else if (solveSpeed>8.99 && solveSpeed<11.99 && stepToImprove=="PLL"){
     improvementText = `<p> Your worst step is PLL. Make sure you know full PLL and use an algorithm trainer to practice the algorithms.</p>`;
+  } else if (solveSpeed>7.99 && solveSpeed<8.99 && stepToImprove=="F2L"){
+    improvementText = `<p> Your worst step is F2L. Make sure you have good lookahead and are solving efficiently. You can also consider learning some advanced stuff like: pseudoslotting, multislotting, FRUF stuff or VLS.</p>`;
+  } else if (solveSpeed>7.99 && solveSpeed<8.99 && stepToImprove=="OLL"){
+    improvementText = `<p> Your worst step is OLL. You just need to drill you algorithms to get faster at recognition and execution. You can also consider learning some ZBLL's or some other advanced stuff like: VLS and OLLCP.</p>`;
+  } else if (solveSpeed>0 && solveSpeed<8.99 && stepToImprove=="PLL"){
+    improvementText = `<p> Your worst step is PLL. You just need to drill your algorithms to get faster at recognition and execution. You can also consider learning some advanced algorithm sets like: ZBLL or OLLCP, to skip or get a better PLL.</p>`;
+  } else if (solveSpeed>0 && solveSpeed<7.99 && stepToImprove=="F2L"){
+    improvementText = `<p> Your worst step is F2L. Make sure you have good lookahead and are solving things efficiently. You should also look into some advanced F2L techniques. And remember to plan as much of you F2L as possible in inspection.</p>`;
+  } else if (solveSpeed>0 && solveSpeed<7.99 && stepToImprove=="OLL"){
+    improvementText = `<p> Your worst step is OLL. You just need to drill your algorithms to get faster at recognition and execution. You should learn how to predict your PLL or at least predict the corner permutation. You can also consider learning some advanced algorithm sets like: ZBLL or OLLCP, to skip or get a better PLL.</p>`;
   }
 
   //Display information
