@@ -75,6 +75,12 @@ function improvementGuide(){
     improvementText = `<p> Your worst step is OLL. At your speed it is necessary to know 2 look OLL, you can use <a href="https://www.youtube.com/watch?v=6PSBaxlBqRg">this tutorial</a> to learn it. If you already know 2 look OLL, just do a ton of solves to improve at it.</p>`;
   } else if (solveSpeed>39.99 && solveSpeed<49.99 && stepToImprove=="PLL"){
     improvementText = `<p> Your worst step is PLL. Make sure you know 2 look PLL, and then just do a ton of solves to improve your PLL speed.</p>`;
+  } else if (solveSpeed>29.99 && solveSpeed<39.99 && stepToImprove=="F2L"){
+    improvementText = `<p> Your worst step is F2L. Make sure you know how to do intuitive F2L. You also need to have good fingertricks, here is a <a href="https://www.youtube.com/watch?v=wLuVF9Dk3AQ">fingertrick tutorial</a>. After you know all of that, just do a million solves.</p>`;
+  } else if (solveSpeed>29.99 && solveSpeed<39.99 && stepToImprove=="OLL"){
+    improvementText = `<p> Your worst step is OLL. To improve at OLL at your speed, make sure you know 2 look OLL, if you already know it just do a lot of solves.</p>`;
+  } else if (solveSpeed>29.99 && solveSpeed<39.99 && stepToImprove=="PLL"){
+    improvementText = `<p> Your worst step is PLL. At your speed you need to know full PLL here is an <a href="https://www.speedcubedb.com/a/3x3/PLL">algorithm sheet</a>. If you already know full PLL you just need to do a ton of solves to get faster at it.</p>`;
   }
 
   //Display information
