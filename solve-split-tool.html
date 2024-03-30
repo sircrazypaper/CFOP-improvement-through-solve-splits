@@ -8,15 +8,15 @@
 <body>
 <!-- partial:index.partial.html -->
 <div class="container">
-  <h>Solve splits improvement guide</h>
+  <h id="big-header">Solve splits improvement guide</h>
 
   <div class="inputs">
     <label for="f2l-input">F2L</label>
-    <input type="number" id="f2l-input"></input>
+    <input type="number" min="0" onkeypress="return (event.charCode == 8 || event.charCode == 0) ? null : event.charCode >= 48 && event.charCode <= 57" id="f2l-input"></input>
     <label for="oll-input">OLL</label>
-    <input type="number" id="oll-input"></input>
+    <input type="number" min="0" onkeypress="return (event.charCode == 8 || event.charCode == 0) ? null : event.charCode >= 48 && event.charCode <= 57" id="oll-input"></input>
     <label for="pll-input">PLL</label>
-    <input type="number" id="pll-input"></input>
+    <input type="number" min="0" onkeypress="return (event.charCode == 8 || event.charCode == 0) ? null : event.charCode >= 48 && event.charCode <= 57" id="pll-input"></input>
     <button onclick="improvementGuide()">Submit</button>
   </div>
 
@@ -32,10 +32,13 @@
     <br>
     <label for="improve-pll-by">PLL: </label>
     <span id="improve-pll-by"></span>
+  </div>
+  <div class="guide">
+    <label id="guide-for-improvement" for="step-to-improve">Guide for your improvement: </label>
     <br>
-    <label for="step-to-improve">Guide for your improvement: </label>
     <span id="step-to-improve"></span>
   </div>
+
 </div>
 <!-- partial -->
 </body>

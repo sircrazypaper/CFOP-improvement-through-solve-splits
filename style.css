@@ -11,10 +11,11 @@ body{
 
 .container{
   position: fixed;
-   width: 100%;
-   height: 100%;
-   left: 0;
-   top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  padding-top: 5%;
 }
 
 input {
@@ -31,10 +32,32 @@ input {
 
 .improvements{
   font-size: 1.75vw;
-  margin: 2.5%;
+  margin-top: 3.5%;
+}
+
+.guide{
+  margin-top: 1%;
+}
+
+#step-to-improve{
+  font-size: 1.75vw;
 }
 
 #split-header{
   font-size: 2.3vw;
   margin: 0.2%;
+}
+
+#big-header{
+  padding: 5%;
+  font-size: 3vw;
+}
+
+#guide-for-improvement{
+  font-size: 2.3vw;
+  margin-top: 5%;
+}
+
+a{
+  color: rgb(4, 87, 87);
 }
