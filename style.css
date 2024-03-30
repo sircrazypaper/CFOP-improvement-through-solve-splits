@@ -1,9 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Passion+One);
+
 
 body{
-  font-family: Helvetica;
+  font-family: 'Passion One';
   font-style: normal;
   text-align: center;
-  padding: ;
+  background-color: rgb(34, 34, 34);
+  color: rgb(228, 228, 228);
 }
 
 .container{
@@ -15,7 +18,10 @@ body{
 }
 
 input {
-  width: 20%;
+  font-family: 'Passion One';
+  font-size: 1.2vw;
+  width: 4%;
+  padding: 1.2%;
 }
 
 .inputs{
