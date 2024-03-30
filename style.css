@@ -23,6 +23,10 @@ input {
   font-size: 1.2vw;
   width: 4%;
   padding: 1.2%;
+  border-radius: 2.2vw;
+  border-color: rgb(4, 87, 87);
+  border-style: solid;
+  border-width: 0.3vw;
 }
 
 .inputs{
@@ -37,6 +41,8 @@ input {
 
 .guide{
   margin-top: 1%;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 
 #step-to-improve{
@@ -56,6 +62,17 @@ input {
 #guide-for-improvement{
   font-size: 2.3vw;
   margin-top: 5%;
+}
+
+button{
+  font-family: 'Passion One';
+  font-size: 1.6vw;
+  padding: 1.2%;
+  display: inline-block;
+  border-radius: 2.2vw;
+  border-color: rgb(4, 87, 87);
+  border-style: solid;
+  border-width: 0.3vw;
 }
 
 a{
