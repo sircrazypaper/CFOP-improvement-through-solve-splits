@@ -12,11 +12,11 @@
 
   <div class="inputs">
     <label for="f2l-input">F2L</label>
-    <input type="number" min="0" onkeypress="return (event.charCode == 8 || event.charCode == 0) ? null : event.charCode >= 48 && event.charCode <= 57" id="f2l-input"></input>
+    <input type="number" min="0" onkeydown="return event.keyCode !== 69 && event.keyCode !== 189" id="f2l-input"></input>
     <label for="oll-input">OLL</label>
-    <input type="number" min="0" onkeypress="return (event.charCode == 8 || event.charCode == 0) ? null : event.charCode >= 48 && event.charCode <= 57" id="oll-input"></input>
+    <input type="number" min="0" onkeydown="return event.keyCode !== 69 && event.keyCode !== 189" id="oll-input"></input>
     <label for="pll-input">PLL</label>
-    <input type="number" min="0" onkeypress="return (event.charCode == 8 || event.charCode == 0) ? null : event.charCode >= 48 && event.charCode <= 57" id="pll-input"></input>
+    <input type="number" min="0" onkeydown="return event.keyCode !== 69 && event.keyCode !== 189" id="pll-input"></input>
     <button onclick="improvementGuide()">Submit</button>
   </div>
 
@@ -38,7 +38,9 @@
     <br>
     <span id="step-to-improve"></span>
   </div>
-
+  <div class="bottom">
+    <a class="about-link" href="">About</a>
+  </div>
 </div>
 <!-- partial -->
 </body>

@@ -78,3 +78,31 @@ button{
 a{
   color: rgb(4, 87, 87);
 }
+
+.bottom{
+  position: fixed;
+  bottom: 0;
+}
+
+.about-link{
+  font-size: 1.5vw;
+  margin: 100%;
+}
+
+.about-container{
+  margin-top: 1%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.about-headers{
+  font-size: 3vw;
+}
+
+.about-text{
+  font-size: 1.7vw;
+}
+
+.back-to-tool{
+  font-size: 1.7vw;
+}
