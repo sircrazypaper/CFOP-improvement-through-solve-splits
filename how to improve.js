@@ -30,9 +30,10 @@ function improvementGuide(){
   ollGoal = solveSpeed*ollpct;
   pllGoal = solveSpeed*pllpct;
 
-if(f2lSpeed==""||ollSpeed==""||pllSpeed==""){
-  alert("Please fill in your speed for F2L, OLL and PLL");
-}
+  //Make sure all information has been given
+  if(f2lSpeed==""||ollSpeed==""||pllSpeed==""){
+    alert("Please fill in your speed for F2L, OLL and PLL");
+  }
 
   //Find out how much each step needs to improve
   improveF2l = f2lGoal-f2lSpeed;
