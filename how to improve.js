@@ -21,7 +21,6 @@ let improvementText = ' ';
 
 function improvementGuide(){
 
-
   //Set all needed variables
   f2lSpeed = document.getElementById('f2l-input').value;
   ollSpeed = document.getElementById('oll-input').value;
@@ -30,6 +29,10 @@ function improvementGuide(){
   f2lGoal = solveSpeed*f2lpct;
   ollGoal = solveSpeed*ollpct;
   pllGoal = solveSpeed*pllpct;
+
+if(f2lSpeed==""||ollSpeed==""||pllSpeed==""){
+  alert("Please fill in your speed for F2L, OLL and PLL");
+}
 
   //Find out how much each step needs to improve
   improveF2l = f2lGoal-f2lSpeed;
