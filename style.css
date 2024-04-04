@@ -2,20 +2,12 @@
 
 
 body{
+  padding: 5%;
   font-family: 'Passion One';
   font-style: normal;
   text-align: center;
   background-color: rgb(34, 34, 34);
   color: rgb(228, 228, 228);
-}
-
-.container{
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  padding-top: 5%;
 }
 
 input {
@@ -56,6 +48,7 @@ input {
 }
 
 #big-header{
+  padding-top: 5%;
   padding: 5%;
   font-size: 3vw;
 }
